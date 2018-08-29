@@ -1,0 +1,87 @@
+@media screen and (min-width: 801px) {
+    .queue {
+        height:auto;    
+        width:auto;
+        font-size: 8vw ;
+        background-color: #efef0b;
+        text-align: center;
+        font-family: 'Do Hyeon', sans-serif;
+        /*        padding-bottom: 11%;*/
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        text-align: center;
+
+    }
+
+    #queue {
+        height:auto;
+        margin-bottom:1.5% ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+
+    }
+    #img{
+
+        margin-top:2%;
+        width: 1200px;
+        height:500px;
+        display: flex;
+        flex-shrink: 3;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .queue.sh {
+        height:auto;
+        width:50%;
+        font-size: 100px; 
+        background-color: #efef0b;
+        font-family: 'Do Hyeon', sans-serif;
+        margin-top:8% ;
+    }
+    .sm{
+        display: none;
+    }
+
+    #img{
+        margin-top:10%;
+    }
+}
+
+#home {
+    margin-top: 1.5%;
+}
+
+
+#email {
+
+    width:300px;
+    height:300px;   
+}
+
+#email input { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
